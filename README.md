@@ -297,13 +297,6 @@ Depending on how it's structured, a web application typically has three jobs:
 
 ----
 
-**Let's Discuss**  <!-- Estimate: 5 minutes -->
-
-Can you identify how that breakdown worked in Express?
-Which parts of the application were responsible for what?
-
-----
-
 In Rails, the first responsibility is handled by a combination
 of the **Router** and the **Controllers**;
 Controllers hold methods that 'respond' to incoming requests,
