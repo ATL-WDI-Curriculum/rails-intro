@@ -286,7 +286,7 @@ Rails uses an __MVC__ architecture
 ![MVC Diagram](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_3rd_edition/images/figures/mvc_detailed.png)
 
 
-## Railstaurant Metaphore
+## Railstaurant Metaphor
 The **client** is a customer eating in the restaurant, the **server** is the waiter, the **router** is waiter who hands off orders, the **controller** is the kitchen, the **database** is the giant walk-in refrigerator with ingredients, the **model** is the person fetching ingredients from the refrigerator, the **view** is the chef who makes the meal look pretty and relays it back to the customer.
 
 Depending on how it's structured, a web application typically has three jobs:
