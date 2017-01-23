@@ -253,7 +253,7 @@ Try and find answers to the following questions:
 2.  Where should you put third-party JavaScript and CSS files?
     What about files you create yourself?
 
-3.  Suppoose that you needed to change your application's routes.
+3.  Suppose that you needed to change your application's routes.
     Where would you go to do that?
 
 We'll regroup afterwards to discuss your answers to these questions.
