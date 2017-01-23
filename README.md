@@ -74,7 +74,7 @@ To begin, we can just run the following command.
   rails new cookbook -d postgresql
 ```
 
-Thic command generates a new Rails app.
+This command generates a new Rails app.
 By default, Rails creates an application using a (rather flimsy) database called
 SQLite; when using SQLite, Rails stores your application's data in a text file
 inside the Rails app. This is not ideal.
