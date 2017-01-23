@@ -861,9 +861,9 @@ alter the database.
     def create
       @recipe = Recipe.new(recipe_params)
       if @recipe.save
-        redirect_to 'recipes_url'
+        redirect_to recipes_url
       else
-        redirect_to 'new_recipe_url'
+        redirect_to new_recipe_url
       end
     end
     ```
