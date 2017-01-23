@@ -267,36 +267,27 @@ We'll regroup afterwards to discuss your answers to these questions.
 Rails and Express have a lot of similarities, because they were both created
 to solve more or less the same problem --
 making it easier to quickly build web applications.
+## MVC
 
-```bash
-Node/Express
+Rails uses an __MVC__ architecture
 
-                               |-----> PG Middleware <----> DB
-                               |         |         |
-             response      request       |         |
-    Browser <-------- server/router --> router <---
-                              GET         ^
-                              PUT         |
-                              POST         -----> view <----> html/images/css/js
-                              DELETE
+<b>M</b>odel - The model refers to the data objects that we use. It's the object oriented approach to design. The data in our database will be the most common type of object that we'll put there.
+
+<b>V</b>iew - The view is the Presentation layer. It's what the user sees and interacts with, essentially the web pages. The HTML, the CSS and the JavaScript. The controller processes and responds to user events, such as clicking on links and submitting forms.
+
+<b>C</b>ontroller - The controller will make decisions based on the request and then control what happens in response. It controls the interaction with our models and with our views.
+
+(Ref: [Hartl MVC](https://www.railstutorial.org/book/toy_app#fig-mvc_detailed))
+
+![rMVC Diagram](http://i.stack.imgur.com/Sf2OQ.png)
+
+> Alternate Diagram:
+
+![MVC Diagram](https://softcover.s3.amazonaws.com/636/ruby_on_rails_tutorial_3rd_edition/images/figures/mvc_detailed.png)
 
 
-
-
-```
-
-```bash
-Rails
-                                         -----> Model <----> DB
-                                         |         |
-            response        request      |         |
-   Browser <-------- server/router -------> controller <--
-                             GET         ^
-                             PUT         |
-                             POST         -----> view <----> html/images/css/js
-                             DELETE
-
-```
+## Railstaurant Metaphore
+The **client** is a customer eating in the restaurant, the **server** is the waiter, the **router** is waiter who hands off orders, the **controller** is the kitchen, the **database** is the giant walk-in refrigerator with ingredients, the **model** is the person fetching ingredients from the refrigerator, the **view** is the chef who makes the meal look pretty and relays it back to the customer.
 
 Depending on how it's structured, a web application typically has three jobs:
 
