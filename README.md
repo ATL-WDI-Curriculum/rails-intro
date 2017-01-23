@@ -90,13 +90,6 @@ Let's go into the cookbook folder:
   cd cookbook
 ```
 
-Let's look at the contents of this folder using `tree`, a command-line program
-for exploring the file tree.
-
-```bash
-tree .
-```
-
 Here's a list of all the files and folders that were magically created
 by the `rails new` command:
 
