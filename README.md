@@ -666,7 +666,7 @@ DO NOT TRY TO MIGRATE YET. We need to set up our migrations first.
 <!-- Estimate : 10 mins -->
 
 Let's play around with the Model using the Rails console, a Ruby REPL
-run from within Rails. Top open the console, type `rails c`.
+run from within Rails. To open the console, type `rails c`.
 
 Read through [this section in the docs](http://guides.rubyonrails.org/active_record_basics.html#crud-reading-and-writing-data)
 and try out some of these commands/patterns with our Recipe model.
